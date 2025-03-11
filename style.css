@@ -65,9 +65,9 @@ h2 {
     margin-bottom: 25px;
 }
 
-.eat-list {
+.frameworks-list {
     list-style-image: url("logo/ULLI.svg");
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 li {
@@ -76,7 +76,7 @@ li {
 }
 
 .books-list {
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 label {
@@ -84,12 +84,11 @@ label {
     font-size: 16px;
 }
 
-.other-skill {
+.text-field {
     width: 330px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
-    padding: 9px 215px 8px 12px;
-    color: rgba(48, 48, 48, 0.2);
+    padding: 9px 0 8px 12px;
 }
 
 .btn {
@@ -123,9 +122,7 @@ table td {
 }
 
 th, td {
-    padding-top: 10px;
-    padding-bottom: 12px;
-    padding-left: 15px;
+    padding: 10px 0 12px 15px;
 }
 
 footer {
