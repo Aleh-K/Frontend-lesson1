@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>It-incubator precourse</title>
 </head>
 <body>
@@ -10,15 +14,15 @@
     <span>IT-INCUBATOR</span>
 </header>
 
-<section data-cy="hw1-section-main-pre">
-    <h1>Курневич Олег Юрьевич</h1>
-    <p>Закончил Белорусскую Государственную академию Авиации, работаю на минском заводе гражданской авиации №407, контрольным мастером.
+<section class="main-section" data-cy="hw1-section-main-pre">
+    <h1 class="main-title">Курневич Олег Юрьевич</h1>
+    <p class="main-text">Закончил Белорусскую Государственную академию Авиации, работаю на минском заводе гражданской авиации №407, контрольным мастером.
         Увлекаюсь спортом и машинами)</p>
-    <img src="https://img.freepik.com/free-photo/3d-render-little-boy-with-laptop-tools_1057-44642.jpg" alt="Boy studying IT">
+    <img class="main-image" src="https://img.freepik.com/free-photo/3d-render-little-boy-with-laptop-tools_1057-44642.jpg" alt="Boy studying IT">
 
 </section>
-<section data-cy="hw1-section-about-pre">
-    <select>
+<section class="section-title" data-cy="hw1-section-about-pre">
+    <select class="country-select">
         <option value="mogilev">Mogilev</option>
         <option selected value="minsk">Minsk</option>
         <option value="grodno">Grodno</option>
@@ -26,11 +30,9 @@
         <option value="gomel">Gomel</option>
     </select>
     <div data-cy="hw1-unordered-list-box-pre">
-        <H2>Любимые блюда на вечер:) </H2>
-        <ul>
-            <li>
-                <b>Жареная картошка</b>
-            </li>
+        <h2>Любимые блюда на вечер:) </h2>
+        <ul class="eat-list">
+            <li>Жареная картошка</li>
             <li>Запеченые пельмени</li>
             <li>Плов</li>
             <li>Драники</li>
@@ -39,19 +41,10 @@
     </div>
     <div data-cy="hw1-ordered-list-box-pre">
         <h2>Рейтинг любимых книг</h2>
-        <ol>
-            <li>
-                <b>Ю Несбе - </b>
-                <i>Снеговик</i>
-</li>
-            <li>
-                <b>Dzhen Sinsero - </b>
-                <i>Не ной</i>
-            </li>
-            <li>
-                <b>Васислий Орехов - </b>
-                <i>Зона поражения</i>
-            </li>
+        <ol class="books-list">
+            <li>Ю Несбе - Снеговик</li>
+            <li>Dzhen Sinsero - Не ной</li>
+            <li>Васислий Орехов - Зона поражения</li>
         </ol>
 
     </div>
@@ -72,14 +65,10 @@
         <label for="Python">
             <input id="Python" type="checkbox">Python
         </label>
-        <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х).
-            - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал).
-            - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
-            - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
     </div>
-    <input placeholder="Новый скилл" type="text">
-    <button>Добавить</button>
-    <hr>
+    <input class="other-skill" placeholder="Новый скилл" type="text">
+    <button class="btn">Добавить</button>
+    <hr class="horizontal-line">
     <table border="1" data-cy="hw-about-table-pre">
         <tr>
             <th >П/Н</th>
@@ -102,13 +91,13 @@
             <td>NO</td>
         </tr>
         <tr>
-            <td colspan="2">Вывод</td>
+            <td colspan="2">Вывод:</td>
             <td>Учиться</td>
         </tr>
     </table>
 </section>
 <footer data-cy="hw-footer-pre">
-    <a href="https://it-incubator.io/">it-incubator</a>
+    <a class="link" href="https://it-incubator.io/">it-incubator</a>
 </footer>
 </body>
 </html>
