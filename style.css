@@ -6,7 +6,7 @@
 
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1140px;
 }
 
 body {
@@ -118,14 +118,13 @@ select:hover,
 
 .skills-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 40px;
 }
 
 .skills {
     display: flex;
     flex-direction: column;
-    order: 2;
     gap: 20px;
 }
 
