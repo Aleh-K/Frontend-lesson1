@@ -9,95 +9,119 @@
     <link rel="stylesheet" href="\Frontend-lesson1\style.css">
     <title>It-incubator precourse</title>
 </head>
-<body data-cy="hw2-body">
-<header data-cy="hw2-header">
-    <span data-cy="hw2-header-span">IT-INCUBATOR</span>
+<body data-cy="hw3-body-pre">
+<header data-cy="hw3-header">
+    <div class="container">
+        <span data-cy="hw3-header-span">IT-INCUBATOR</span>
+    </div>
 </header>
 
-<section class="main-section" data-cy="hw2-section-main-pre">
-    <h1 class="main-title" data-cy="hw2-main-title">Курневич Олег Юрьевич</h1>
-    <p class="main-text" data-cy="hw2-text">Закончил Белорусскую Государственную академию Авиации, работаю на минском заводе гражданской авиации №407, контрольным мастером.
-        Увлекаюсь спортом и машинами)</p>
-    <img class="main-image" data-cy="hw2-main-image" src="https://img.freepik.com/free-photo/3d-render-little-boy-with-laptop-tools_1057-44642.jpg" alt="Boy studying IT">
-
+<section class="main-section" data-cy="hw3-section-main-pre">
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-wrapper" data-cy="hw3-text-wrapper-pre">
+                <h1 class="main-title" data-cy="hw3-main-title">Курневич Олег Юрьевич</h1>
+                <p class="main-text" data-cy="hw3-text">Закончил Белорусскую Государственную академию Авиации, работаю на минском заводе гражданской авиации №407, контрольным мастером.
+                    Увлекаюсь спортом и машинами)</p>
+            </div>
+            <img class="main-image" data-cy="hw3-main-image" src="https://img.freepik.com/free-photo/3d-render-little-boy-with-laptop-tools_1057-44642.jpg" alt="Boy studying IT">
+        </div>
+    </div>
 </section>
-<section class="section-title" data-cy="hw2-section-about-pre">
-    <select class="country-select" data-cy="hw2-select-pre">
-        <option value="mogilev">Mogilev</option>
-        <option selected value="minsk">Minsk</option>
-        <option value="grodno">Grodno</option>
-        <option value="brest">Brest</option>
-        <option value="gomel">Gomel</option>
-    </select>
-    <div data-cy="hw1-unordered-list-box-pre">
-        <h2 data-cy="hw2-section-title-pre">Любимые блюда на вечер:) </h2>
-        <ul class="frameworks-list" data-cy="hw2-frameworks-list-pre">
-            <li>Жареная картошка</li>
-            <li>Запеченые пельмени</li>
-            <li>Плов</li>
-            <li>Драники</li>
-            <li>Макароны</li>
-        </ul>
-    </div>
-    <div data-cy="hw1-ordered-list-box-pre">
-        <h2 data-cy="hw2-section-title-pre">Рейтинг любимых книг</h2>
-        <ol class="books-list" data-cy="hw2-books-list-pre">
-            <li>Ю Несбе - Снеговик</li>
-            <li>Dzhen Sinsero - Не ной</li>
-            <li>Васислий Орехов - Зона поражения</li>
-        </ol>
+<section class="about-section" data-cy="hw3-section-about-pre">
+    <div class="container">
+        <div class="wrapper">
+            <select class="country-select" data-cy="hw2-select-pre">
+                <option value="mogilev">Mogilev</option>
+                <option selected value="minsk">Minsk</option>
+                <option value="grodno">Grodno</option>
+                <option value="brest">Brest</option>
+                <option value="gomel">Gomel</option>
+            </select>
 
+            <div class="info-wrapper" data-cy="hw3-info-wrapper-pre">
+                <div class="frameworks" data-cy="hw3-frameworks-pre">
+                    <h2 class="section-title" data-cy="hw3-section-title-pre">Любимые блюда на вечер:) </h2>
+                    <ul class="frameworks-list" data-cy="hw3-frameworks-list-pre">
+                        <li>Жареная картошка</li>
+                        <li>Запеченые пельмени</li>
+                        <li>Плов</li>
+                        <li>Драники</li>
+                        <li>Макароны</li>
+                    </ul>
+                </div>
+                <div class="books" data-cy="hw3-books-pre">
+                    <h2 class="section-title" data-cy="hw3-section-title-pre">Рейтинг любимых книг</h2>
+                    <ol class="books-list" data-cy="hw3-books-list-pre">
+                        <li>Ю Несбе - Снеговик</li>
+                        <li>Dzhen Sinsero - Не ной</li>
+                        <li>Васислий Орехов - Зона поражения</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="skills-wrapper">
+                <h2 class="section-title" data-cy="hw3-section-title-pre">Мои скиллы</h2>
+
+                <div class="skills-block" data-cy="hw3-skills-block-pre">
+                    <div class="skills" data-cy="hw3-skills-pre">
+                        <label class="label" for="HTML" data-cy="hw3-label-pre">
+                            <input id="HTML" type="checkbox" checked>HTML
+                        </label>
+                        <label class="label" for="CSS" data-cy="hw3-label-pre">
+                            <input id="CSS" type="checkbox">CSS
+                        </label>
+                        <label class="label" for="JavaScript" data-cy="hw3-label-pre">
+                            <input id="JavaScript" type="checkbox">JavaScript
+                        </label>
+                        <label class="label" for="PHP" data-cy="hw3-label-pre">
+                            <input id="PHP" type="checkbox">PHP
+                        </label>
+                        <label class="label" for="Python" data-cy="hw3-label-pre">
+                            <input id="Python" type="checkbox">Python
+                        </label>
+                    </div>
+
+                    <form>
+                        <input class="text-field" data-cy="hw3-text-field-pre" placeholder="Новый скилл" type="text">
+                        <button class="btn" data-cy="hw3-btn-pre">Добавить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <hr class="line" data-cy="hw3-line-pre">
+
+        <table data-cy="hw3-about-table-pre" border="1">
+            <tr>
+                <th >П/Н</th>
+                <th ><b>Знания</b></th>
+                <th ><b>Результат</b></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><i>HTML</i></td>
+                <td>So so</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><i>CSS</i></td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><i>JS</i></td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <td colspan="2">Вывод:</td>
+                <td>Учиться</td>
+            </tr>
+        </table>
     </div>
-    <div data-cy="hw1-skills-box-pre">
-        <h2 data-cy="hw2-section-title-pre">Мои скиллы</h2>
-        <label for="HTML" data-cy="hw2-label-pre">
-            <input id="HTML" type="checkbox" checked>HTML
-        </label>
-        <label for="CSS" data-cy="hw2-label-pre">
-            <input id="CSS" type="checkbox">CSS
-        </label>
-        <label for="JavaScript" data-cy="hw2-label-pre">
-            <input id="JavaScript" type="checkbox">JavaScript
-        </label>
-        <label for="PHP" data-cy="hw2-label-pre">
-            <input id="PHP" type="checkbox">PHP
-        </label>
-        <label for="Python" data-cy="hw2-label-pre">
-            <input id="Python" type="checkbox">Python
-        </label>
-    </div>
-    <input class="text-field" data-cy="hw2-text-field-pre" placeholder="Новый скилл" type="text">
-    <button class="btn" data-cy="hw2-btn-pre">Добавить</button>
-    <hr class="horizontal-line" data-cy="hw2-line-pre">
-    <table border="1" data-cy="hw2-about-table-pre">
-        <tr>
-            <th >П/Н</th>
-            <th ><b>Знания</b></th>
-            <th ><b>Результат</b></th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td><i>HTML</i></td>
-            <td>So so</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td><i>CSS</i></td>
-            <td>NO</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td><i>JS</i></td>
-            <td>NO</td>
-        </tr>
-        <tr>
-            <td colspan="2">Вывод:</td>
-            <td>Учиться</td>
-        </tr>
-    </table>
 </section>
-<footer data-cy="hw-footer-pre">
-    <a class="link" data-cy="hw-footer-link-pre" href="https://it-incubator.io/">it-incubator</a>
+<footer data-cy="hw3-footer-pre">
+    <a class="footer-link" data-cy="hw3-footer-link-pre" href="https://it-incubator.io/">it-incubator</a>
 </footer>
 </body>
 </html>
